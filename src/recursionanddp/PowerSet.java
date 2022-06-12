@@ -1,4 +1,4 @@
-package recursion;
+package recursionanddp;
 
 import java.util.ArrayList;
 
@@ -28,7 +28,6 @@ public class PowerSet {
     input.add(1);
     input.add(2);
     input.add(3);
-    input.add(4);
     ArrayList<ArrayList<Integer>> output = new PowerSet().getSubset(input, 0);
     System.out.println(output);
   }

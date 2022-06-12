@@ -1,4 +1,4 @@
-package recursion;
+package recursionanddp;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -42,12 +42,8 @@ public class StringPermutationWithDups {
   }
 
   public static void main(String[] args) {
-    String input = "aabbbbc";
+    String input = "abbc";
     ArrayList<String> output = new StringPermutationWithDups().printPerms(input);
-    int count = 0;
-    for (String s : output) {
-      ++count;
-      System.out.printf(count + "-" + s + "\n");
-    }
+    System.out.println(output);
   }
 }

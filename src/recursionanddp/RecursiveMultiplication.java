@@ -1,4 +1,4 @@
-package recursion;
+package recursionanddp;
 
 public class RecursiveMultiplication {
   public int minProduct(int a, int b) {
